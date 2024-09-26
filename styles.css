@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Soft, light background color */
+    color: #333; /* Darker text color for contrast */
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto; /* Center the container */
+    padding: 20px; /* Padding on sides and bottom */
+    background: #f0f4f8; /* Same color as the body */
+    border-radius: 8px; /* Slightly rounded corners */
+    /* Removed box-shadow and border */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 10px;
+    font-weight: bold; /* Make header bold */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for a modern feel */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 4px; /* Slightly rounded corners for inputs */
+    background: #ffffff; /* White background for inputs */
+    color: #333; /* Darker text color */
+    transition: border 0.3s; /* Smooth transition on focus */
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007BFF; /* Change border color on focus */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.3); /* Add a focus shadow */
+}
+
+.rating {
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.stars {
+    display: flex; /* Keep stars in a row */
+    margin-top: 5px; /* Space between label and stars */
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ddd; /* Gray by default */
+    margin-right: 5px; /* Space between stars */
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: gold; /* Color on hover */
+}
+
+.star.selected,
+.star.selected ~ .star {
+    color: gold; /* Color for selected stars */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #007BFF; /* Primary button color */
+    color: white;
+    border: none; /* Remove border */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#thankYouMessage {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Existing styles remain unchanged */
+
+.hidden {
+    display: none;
+}
+
+#thankYouMessage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#thankYouMessage h2 {
+    font-size: 32px; /* Larger font for the heading */
+    color: #007BFF; /* Color to match the theme */
+}
+
+#thankYouMessage p {
+    font-size: 18px; /* Increase font size for readability */
+    margin: 10px 0; /* Spacing between paragraphs */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #007BFF; /* Primary button color */
+    color: white;
+    border: none; /* Remove border */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
